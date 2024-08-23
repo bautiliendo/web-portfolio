@@ -32,7 +32,7 @@ export const Hero = () => {
                         />
 
                         <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                            Juan Bautista Liendo - Desarrollador Full Stack
+                            Juan Bautista Liendo - Programador Full Stack
                         </p>
                         <a href='#about'>
                             <MagicButton 
