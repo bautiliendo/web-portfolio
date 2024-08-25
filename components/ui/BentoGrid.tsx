@@ -19,7 +19,7 @@ export const BentoGrid = ({
         <div
             className={cn(
                 // "grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto ",
-                "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
+                "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-4 mx-auto",
                 className
             )}
         >
@@ -110,44 +110,51 @@ export const BentoGridItem = ({
 
                     {id === 3 && (
                         <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:right-2">
-                            <div className="flex flex-col gap-3 lg:gap-8">
+                            <div className="flex flex-col gap-3 lg:gap-4">
                                 {['HTML', 'CSS', 'JavaScript',].map((item) => (
                                     <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                                         {item}
                                     </span>
                                 ))}
-                            <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>
+                                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
                             </div>
-                            <div className="flex flex-col gap-3 lg:gap-8">
-                                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>
+                            <div className="flex flex-col gap-3 lg:gap-4">
+                                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
                                 {['React.js', 'Typescript', 'TailwindCSS',].map((item) => (
                                     <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                                         {item}
                                     </span>
                                 ))}
                             </div>
+                            <div className="flex flex-col gap-3 lg:gap-4">
+                                {['MongoDB', 'Node JS', 'Express',].map((item) => (
+                                    <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                                        {item}
+                                    </span>
+                                ))}
+                                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
+                            </div>
                         </div>
                     )}
                     {id === 6 && (
                         <div className="mt-5 relative">
                             <div className={`absolute -bottom-5 right-0`}>
-                            <Lottie options={{
-                                loop: copied,
-                                autoplay: copied,
-                                animationData,
-                                rendererSettings: {
-                                    preserveAspectRatio: 'xMidYMid slice',
-                                }
-                            }}/>
+                                <Lottie options={{
+                                    loop: copied,
+                                    autoplay: copied,
+                                    animationData,
+                                    rendererSettings: {
+                                        preserveAspectRatio: 'xMidYMid slice',
+                                    }
+                                }} />
                             </div>
                             <MagicButton
-                            title={copied ? 'Email copiado' : 'Copiar email'}
-                            icon={<IoCopyOutline />}
-                            position="left"
-                            otherClasses="!bg-[#161a31]"
-                            handleClick={handleCopy}
+                                title={copied ? 'Email copiado' : 'Copiar email'}
+                                icon={<IoCopyOutline />}
+                                position="left"
+                                otherClasses="!bg-[#161a31]"
+                                handleClick={handleCopy}
                             />
-
                         </div>
                     )}
                 </div>

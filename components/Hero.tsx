@@ -3,10 +3,11 @@ import { Spotlight } from './ui/Spotlight'
 import { MagicButton } from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
+import { socialMedia } from '@/data'
 
 export const Hero = () => {
     return (
-        <div className=''>
+        <div className='' id='hero'>
             <div>
                 <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen' fill='white' />
                 <Spotlight className='-top-10 left-full h-[80vh] w-[50vw] ' fill='purple' />
@@ -23,7 +24,7 @@ export const Hero = () => {
                     <div className='max-w-[89vw] md:max-w-2xl 
                     lg:max-w-[60vw] flex flex-col items-center justify-center'>
                         <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-100'>
-                        Diseño · Desarrollo · Optimización de Páginas Web
+                            Ecommerce - Sitios corporativos - Sistemas
                         </h2>
                         <TextGenerateEffect
                             className='text-center text-[40px]
@@ -34,11 +35,25 @@ export const Hero = () => {
                         <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                             Juan Bautista Liendo - Programador Full Stack
                         </p>
-                        <a href='#about'>
-                            <MagicButton 
-                            title="Proyectos realizados"
-                            icon={<FaLocationArrow />}
-                            position='rigth'
+                        <div className='flex gap-2 mb-2'>
+                            {socialMedia.map((profile) => (
+                                <a href={profile.link} target="_blank" key={profile.id} className='w-10 h-10 cursor-pointer flex justify-center items-center 
+                    backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200
+                    rounded-lg border border-black-300'>
+                                    <img
+                                        src={profile.img}
+                                        alt='img red social'
+                                        width={20}
+                                        height={20}
+                                    />
+                                </a>
+                            ))}
+                        </div>
+                        <a href='#projects'>
+                            <MagicButton
+                                title="Proyectos realizados"
+                                icon={<FaLocationArrow />}
+                                position='rigth'
                             />
                         </a>
                     </div>
