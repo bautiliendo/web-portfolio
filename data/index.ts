@@ -49,15 +49,15 @@ export const gridItems = [
   //   "spareImg": "/b4.svg"
   // },
   {
-    id: 5,
-    title: "Actualmente obteniendo conocimientos sobre base de datos SQL",
-    description:
-      "Curso Udemy - NodeJS, REST APIs, GraphQL, Authentication, MongoDB, SQL",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    "id": 5,
+    "title": "Página web portfolio",
+    "description":
+      "Esta página web es mi último trabajo realizado, hecho con Next.js, Three.js para elementos 3D, Framer Motion para animaciones y TailwindCSS para el estilo.",
+    "className": "md:col-span-3 md:row-span-2",
+    "imgClassName": "absolute right-0 bottom-0 md:w-96 w-60",
+    "titleClassName": "justify-center md:justify-start lg:justify-center",
+    "img": "/grid.svg",
+    "spareImg": "/b4.svg"
   },
   {
     id: 6,

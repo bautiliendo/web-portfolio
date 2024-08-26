@@ -1,7 +1,10 @@
+'use client'
+
 import React from 'react'
 import { MagicButton } from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
 import { socialMedia } from '@/data'
+import { handleEmail } from '@/helpers/handleEmail'
 
 export const Footer = () => {
     return (
@@ -13,13 +16,12 @@ export const Footer = () => {
                 <p className="text-white-200 md:mt-10 my-5 text-center">
                     Contactame hoy mismo y conversemos sobre cómo puedo ayudarte a alcanzar tus objetivos.
                 </p>
-                <a href='mailto:juanbautistaliendo1@gmail.com'>
-                    <MagicButton
-                        title='Contactame'
-                        icon={<FaLocationArrow />}
-                        position='right'
-                    />
-                </a>
+                <MagicButton
+                    title='Contactame'
+                    icon={<FaLocationArrow />}
+                    position='right'
+                    handleClick={handleEmail}
+                />
             </div>
             <div className='flex mt-16 md:flex-row flex-col justify-between items-center'>
 
