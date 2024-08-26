@@ -1,5 +1,5 @@
 export const navItems = [
-  { name: "Inicio", link: "#hero" },
+  // { name: "Inicio", link: "#hero" },
   { name: "Sobre mí", link: "#about" },
   { name: "Proyectos", link: "#projects" },
   { name: "Testimonios", link: "#testimonials" },
@@ -115,21 +115,21 @@ export const projects = [
 export const testimonials = [
   {
     quote:
+    "Colaborar con Bautista fue un placer. Su profesionalismo, rapidez y dedicación a resultados excepcionales fueron evidentes en todo el proyecto. Si buscas mejorar tu sitio web y elevar tu marca,  Bautista es el socio ideal.",
+    name: "Javier",
+    title: "Ingeniero Miembro Clusterbaf",
+  },
+  {
+    quote:
+    "Trabajar con Bautista en la Imagen y Web de nuestra empresa fue excelente. Su puntualidad, profesionalismo, rapidez y dedicación a resultados fueron increíbles en todo el proyecto. Si buscas mejorar tu sitio web y elevar tu marca,  Bautista te va a dar la mejor solución!!",
+    name: "Gonzalo Comba",
+    title: "Ingeniero Miembro Clusterbaf",
+  },
+  {
+    quote:
       "Colaborar con Bautista fue un placer. Su profesionalismo, rapidez y dedicación a resultados excepcionales fueron evidentes en todo el proyecto. Si buscas mejorar tu sitio web y elevar tu marca,  Bautista es el socio ideal.",
     name: "Gabriela Ludueña",
-    title: "Emprendedora negocio AmanecerByBagues",
-  },
-  {
-    quote:
-      "Colaborar con Bautista fue un placer. Su profesionalismo, rapidez y dedicación a resultados excepcionales fueron evidentes en todo el proyecto. Si buscas mejorar tu sitio web y elevar tu marca,  Bautista es el socio ideal.",
-    name: "Javier",
-    title: "Ing. Miembro Clusterbaf",
-  },
-  {
-    quote:
-      "Colaborar con Bautista fue un placer. Su profesionalismo, rapidez y dedicación a resultados excepcionales fueron evidentes en todo el proyecto. Si buscas mejorar tu sitio web y elevar tu marca,  Bautista es el socio ideal.",
-    name: "Gonzalo Comba",
-    title: "Ing. Miembro Clusterbaf",
+    title: "Emprendedora negocio Amanecer By Bagues",
   },
 ];
 

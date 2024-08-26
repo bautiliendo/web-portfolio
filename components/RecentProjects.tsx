@@ -66,7 +66,7 @@ export const RecentProjects = () => {
                                         color='#1C7AD9' />
                                 </div> : (
                                     <div className='flex justify-center items-center'>
-                                        <p className='flex lg:text-xl md:text-sm text-sm text-[#1C7AD9] font-bold'>Visitá la página</p>
+                                        <p className='flex lg:text-xl md:text-sm text-xs text-[#1C7AD9] font-bold'>Visitá la página</p>
                                         <FaLocationArrow className='ms-3'
                                             color='#1C7AD9' />
                                     </div>
