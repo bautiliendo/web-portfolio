@@ -125,12 +125,12 @@ export const testimonials = [
     name: "Gonzalo Comba",
     title: "Socio Gte. Clusterbaf",
   },
-  // {
-  //   quote:
-  //     "Colaborar con Bautista fue un placer. Su profesionalismo, rapidez y dedicación a resultados excepcionales fueron evidentes en todo el proyecto. Si buscas mejorar tu sitio web y elevar tu marca,  Bautista es el socio ideal.",
-  //   name: "Gabriela Ludueña",
-  //   title: "Emprendedora negocio Amanecer By Bagues",
-  // },
+  {
+    quote:
+      "Desde el primer momento que tuve contacto con Bautista me encantó su dedicación, esmero y profesionalismo. Comprometido de lleno con el proyecto, Bautista es el socio ideal.",
+    name: "Gabriela Ludueña",
+    title: "Emprendedora negocio Amanecer By Bagues",
+  },
 ];
 
 export const socialMedia = [
