@@ -115,7 +115,7 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-    "Colaborar con Bautista fue un placer. Su profesionalismo, rapidez y dedicación a resultados excepcionales fueron evidentes en todo el proyecto. Si buscas mejorar tu sitio web y elevar tu marca,  Bautista es el socio ideal.",
+    "Bautista demostró ser un profesional excepcional. Su creatividad y habilidad técnica transformaron nuestra visión en una realidad digital impresionante. Su enfoque y capacidad para entender nuestras necesidades resultaron en un sitio web que superó nuestras expectativas.",
     name: "Javier",
     title: "Ingeniero Miembro Clusterbaf",
   },
@@ -123,14 +123,14 @@ export const testimonials = [
     quote:
     "Trabajar con Bautista en la Imagen y Web de nuestra empresa fue excelente. Su puntualidad, profesionalismo, rapidez y dedicación a resultados fueron increíbles en todo el proyecto. Si buscas mejorar tu sitio web y elevar tu marca,  Bautista te va a dar la mejor solución!!",
     name: "Gonzalo Comba",
-    title: "Ingeniero Miembro Clusterbaf",
+    title: "Socio Gte. Clusterbaf",
   },
-  {
-    quote:
-      "Colaborar con Bautista fue un placer. Su profesionalismo, rapidez y dedicación a resultados excepcionales fueron evidentes en todo el proyecto. Si buscas mejorar tu sitio web y elevar tu marca,  Bautista es el socio ideal.",
-    name: "Gabriela Ludueña",
-    title: "Emprendedora negocio Amanecer By Bagues",
-  },
+  // {
+  //   quote:
+  //     "Colaborar con Bautista fue un placer. Su profesionalismo, rapidez y dedicación a resultados excepcionales fueron evidentes en todo el proyecto. Si buscas mejorar tu sitio web y elevar tu marca,  Bautista es el socio ideal.",
+  //   name: "Gabriela Ludueña",
+  //   title: "Emprendedora negocio Amanecer By Bagues",
+  // },
 ];
 
 export const socialMedia = [
