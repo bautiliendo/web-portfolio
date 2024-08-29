@@ -83,7 +83,7 @@ export const projects = [
   {
     id: 2,
     title: "E-commerce - Amanecer By Bagues",
-    des: "Base de datos + 250 productos. Simplificación de pedidos a través de un sistema que permite añadir productos al carrito y completar su compra a través de un proceso de mensajería directa con el negocio.",
+    des: "Base de datos + 340 productos. Simplificación de pedidos a través de un sistema que permite añadir productos al carrito y completar su compra a través de un proceso de mensajería directa con el negocio.",
     img: "/amanecer.png",
     iconLists: [
       "/re.svg",
@@ -113,12 +113,12 @@ export const projects = [
 ];
 
 export const testimonials = [
-  {
-    quote:
-    "Bautista demostró ser un profesional excepcional. Su creatividad y habilidad técnica transformaron nuestra visión en una realidad digital impresionante. Su enfoque y capacidad para entender nuestras necesidades resultaron en un sitio web que superó nuestras expectativas.",
-    name: "Javier",
-    title: "Ingeniero Miembro Clusterbaf",
-  },
+  // {
+  //   quote:
+  //   "Bautista demostró ser un profesional excepcional. Su creatividad y habilidad técnica transformaron nuestra visión en una realidad digital impresionante. Su enfoque y capacidad para entender nuestras necesidades resultaron en un sitio web que superó nuestras expectativas.",
+  //   name: "Javier",
+  //   title: "Ingeniero Miembro Clusterbaf",
+  // },
   {
     quote:
     "Trabajar con Bautista en la Imagen y Web de nuestra empresa fue excelente. Su puntualidad, profesionalismo, rapidez y dedicación a resultados fueron increíbles en todo el proyecto. Si buscas mejorar tu sitio web y elevar tu marca,  Bautista te va a dar la mejor solución!!",
